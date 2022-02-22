@@ -1,0 +1,48 @@
+/*это базовый CSS файл с минимальными стилями можно вставлять куда угодно*/
+html {
+    font-size: 10px;
+    font-family: 'Prata', serif;
+    background-color: #feffae;
+}
+
+body {
+    width: 600px;
+    margin: 0 auto;
+    background-color: #fdff90;
+    padding: 0 20px 20px 20px;
+    border: 3px solid rgb(99, 99, 99);
+}
+
+h1 {
+    margin: 0;
+    padding: 20px 0;
+    font-size: 60px;
+    text-align: center;
+    color:goldenrod;
+    text-shadow: 3px 3px 2px rgb(100, 100, 100);
+}
+
+h2 {
+    font-size: 1.8em; /*размер шрифта заголовка 180% от основного родительского (здесь это 10px в Body)*/
+}
+
+.Img { /*центруем изображение задав ему блочное "поведение"*/
+    display: block;
+    margin: 0 auto;
+    width: 450px;
+}
+
+p, li {
+    font-size: 16px;
+    line-height: 2;
+    letter-spacing: 1px;
+}
+li,h1 {
+    color:goldenrod;
+}
+p {
+    width: 500px;
+}
+a:hover { /*это правило срабатывает при наведении указателя мыши на объект*/
+    color: rgb(0, 255, 64);
+}
